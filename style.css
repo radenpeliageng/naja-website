@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#050505;
+    color:white;
+    text-align:center;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 20px;
+}
+
+.nav-logo{
+    width:50px;
+}
+
+.links a{
+    color:#00ff88;
+    text-decoration:none;
+    margin-left:15px;
+}
+
+.hero{
+    padding:40px 20px;
+}
+
+.hero-logo{
+    width:180px;
+    animation:float 3s infinite;
+}
+
+@keyframes float{
+    50%{
+        transform:translateY(-10px);
+    }
+}
+
+h1{
+    color:#00ff88;
+    margin-bottom:0;
+}
+
+h2{
+    margin-top:5px;
+    color:#ccc;
+}
+
+.buttons{
+    margin-top:20px;
+}
+
+.btn,
+.btn-outline{
+    display:inline-block;
+    padding:12px 24px;
+    margin:5px;
+    border-radius:30px;
+    text-decoration:none;
+}
+
+.btn{
+    background:#00ff88;
+    color:black;
+}
+
+.btn-outline{
+    border:1px solid #00ff88;
+    color:#00ff88;
+}
+
+.contract-box,
+.card,
+.phase{
+    background:#111;
+    border:1px solid #00ff88;
+    border-radius:15px;
+    padding:15px;
+    margin:10px auto;
+    max-width:500px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+    max-width:500px;
+    margin:auto;
+}
+
+footer{
+    padding:30px;
+    color:#888;
+}
